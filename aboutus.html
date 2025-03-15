@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shri Online Furniture</title>
+    <!-- normalize css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom utilities css -->
+    <link rel = "stylesheet" href = "css/utilities.css">
+    <!-- custom main css -->
+    <link rel = "stylesheet" href = "css/main.css">
+    <style>
+           /* About section and description box styles */
+           .about-container {
+            width: 80%;
+            max-width: 1900px;
+            padding: 10px;
+            display: flex;
+            gap: 80px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+            margin-left: 80px;
+        }
+
+        .description-box {
+            background-color: #fff;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 45%;
+            text-align: center;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .description-box h3 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 4rem;
+        }
+
+        .description-box p {
+            color: #555;
+            font-size: 1.5rem;
+            line-height: 1.5;
+        }
+
+        /* Hover effect */
+        .description-box:hover {
+            transform: scale(1.05);
+            background-color: #f9f9f9;
+        }
+
+        /* Active effect when clicked */
+        .description-box:active {
+            transform: scale(1.02);
+            background-color: #e2e2e2;
+        }
+
+        /* Responsiveness */
+        @media (max-width: 768px) {
+            .description-box {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class = "holder">
+        <!-- navbar -->
+        <nav class = "navbar bg-brown flex">
+            <div class = "container flex">
+               
+                </div>
+
+                <!-- main navigation list -->
+                <div class = "navbar-collapse flex"> 
+                    <li style="list-style-type: none; margin-right: 900px;">
+                     <a href="home.html">   <img src="images/shri_online_furniture-removebg-preview.png" alt="Logo" style="height: 80px; width: auto;">
+                     </a> </li>
+                    
+                    <!-- nav list -->
+                    <ul class = "navbar-nav text-uppercase">
+                        <li class = "nav-item">
+                            <a href = "home.html" class = "nav-link">
+                                <span class = "nav-link-text">home</span>
+                                
+                            </a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "aboutus.html" class = "nav-link active-link">
+                                <span class = "nav-link-text">AboutUs</span>
+                                
+                            </a>
+                        </li>
+
+                        <li class = "nav-item">
+                            <a href = "signup.html" class = "nav-link">
+                                <span class = "nav-link-text">shop</span>
+                                
+                            </a>
+                        </li>
+                       
+                        
+                    </ul>
+                    <!-- end of nav list -->
+
+                    <!-- account icons -->
+                    <div class="nav-icons">
+                        <a href="signup.html" style="margin-right: 20px; text-decoration: none;">
+                            <i class="fa fa-user" style="font-size: 24px; color: #333;"></i>
+                        </a>
+                        
+                    </div>
+                    
+                    <!-- end of account icons -->
+                </div>
+                <!-- end of main navigation list -->
+            </div>
+        </nav>
+        <!-- end of navbar -->
+
+        
+    <!-- About Us Section -->
+    <div class="about-container">
+        <!-- First Description Box -->
+        <div class="description-box">
+            <h3>About Shri Furniture</h3>
+            <p>Shri Furniture is a leading furniture brand in Nepal, dedicated to providing high-quality, stylish, and durable furniture for homes, offices, and commercial spaces. 
+                Rooted in Nepal's rich tradition of craftsmanship, we take pride in blending modern designs with locally sourced materials to create furniture that enhances both functionality and aesthetics. 
+                Our mission is to revolutionize the furniture industry in Nepal by offering affordable, customizable, and long-lasting solutions tailored to the unique needs of our customers. 
+                We are committed to sustainability, ethical sourcing, and empowering local artisans while ensuring our customers receive the best value for their investment.
+                At Shri Furniture, we believe that furniture is not just about utility but also about elevating lifestyles, and we strive to create pieces that reflect comfort, elegance, and innovation.
+            </p>
+        </div>
+
+        <!-- Second Description Box -->
+        <div class="description-box">
+            <h3>Our Mission ?</h3>
+            <p>At Shri Furniture, we stand out as a trusted choice for furniture in Nepal because of our unwavering commitment to quality, craftsmanship, and customer satisfaction. 
+                We offer a diverse range of furniture, from timeless wooden pieces to modern, space-saving designs, ensuring that every customer finds the perfect fit for their home or workspace. 
+                Our products are crafted using premium materials, ensuring durability and long-term value. Additionally, we provide customization options, allowing customers to personalize their furniture according to their preferences. 
+                With competitive pricing, reliable delivery services, and a strong focus on eco-friendly production, we ensure that every purchase with Shri Furniture is a worthwhile investment. 
+                Our dedicated customer support team is always ready to assist, making your shopping experience smooth and hassle-free. 
+                Choose Shri Furniture for innovation, quality, and a brand that truly understands Nepal’s furniture needs.
+            </p>
+        </div>
+    </div>
+
+          
+         <!-- footer -->
+    <footer class = "footer bg-light-brown" id = "footer">
+        <div class = "container">
+            <div class = "footer-content py grid text-center">
+                <div class = "footer-item">
+                    <h3>Shri Furniture</h3>
+                    <p class = "text">Welcome to Shri Furniture, where quality meets craftsmanship. Explore our wide range of furniture collections, designed to bring comfort, elegance, and functionality to your home. From modern to classic styles, we help you create spaces you love.</p>
+                </div>
+
+
+                <div class = "footer-item">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li class = "text"><a href = "home.html">Home</a></li>
+                        <li class = "text"><a href = "signup.html">Shop</a></li>
+                        <li class = "text"><a href = "aboutus.html">About Us</a></li>
+                        <li class = "text"><a href = "signup.html">Log In</a></li>
+
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h3>Contact Us</h3>
+                    <p class = "text">Kathmandu, Nepal</p>
+                    <p class = "text">Phone: +977 9841943843</p>
+                    <p class = "text">Email: shri@furnish.com</p>
+                </div>
+                
+
+               
+            </div>
+        </div> 
+    </footer>
+    <!-- end of footer -->
+    </div>
+</body>
+</html>
